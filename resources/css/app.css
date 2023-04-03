@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
+* {
+    box-sizing:border-box;
+}
+
+/* - Scrollbar */
+::-webkit-scrollbar {
+  @apply w-2 h-full;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-600 rounded;
+}
+
+.content-card {
+  @apply p-4 sm:p-8 shadow !text-base-content rounded-lg border border-primary mb-8;
+}
+
+.content-card>.title {
+  @apply text-2xl mb-6 underline underline-offset-8 decoration-primary decoration-1;
+}
+
+
+/* Remove Arrows Form Number Input */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 @tailwind utilities;

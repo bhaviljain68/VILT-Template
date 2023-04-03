@@ -29,7 +29,7 @@ const showingNavigationDropdown = ref(false);
                 </Link>
               </div>
               <div class="col-span-2 flex items-center justify-end">
-                <!-- <div class="ml-3 relative">
+                <div class="ml-3 relative">
                   <Dropdown align="right" width="48">
                     <template #trigger>
                       <span class="inline-flex rounded-md">
@@ -67,7 +67,7 @@ const showingNavigationDropdown = ref(false);
                       </DropdownLink>
                     </template>
                   </Dropdown>
-                </div> -->
+                </div>
                 <!-- Theme Changer -->
                 <ThemeSwitcher />
               </div>
@@ -90,12 +90,12 @@ const showingNavigationDropdown = ref(false);
 
             <!-- Responsive Settings Options -->
             <div class="pt-0 pb-1 border-t border-primary">
-              <!-- <div class="py-4 px-4 bg-offset text-neutral">
+              <div class="py-4 px-4 bg-offset text-neutral">
                 <div class="font-medium text-base">
                   {{ $page.props.auth.user.name }}
                 </div>
                 <div class="font-medium text-sm">{{ $page.props.auth.user.email }}</div>
-              </div> -->
+              </div>
 
               <div class="mt-3 space-y-1">
                 <ResponsiveNavLink :href="route('profile.edit')">
