@@ -8,7 +8,9 @@
     - `npm run dev`
 - #### Sail
     - Try `php artisan sail up -d` if it gives an error then try to install sail.
-        - Run `php artisan sail:install` and select all the required services.+
+        - Run `php artisan sail:install` and select all the required services.
+        - OR
+        - Run `sail build --no-cache`
 - #### Laravel Breeze
     - Laravel Breeze has already been installed and DaisyUI theme has been implemented to it.
 - #### DaisyUI
