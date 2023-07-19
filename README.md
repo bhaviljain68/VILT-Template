@@ -1,4 +1,4 @@
-# Vue Inertia Laravel Tailwind (VILT) Started With Laravel Breeze, DaisuUI, unpluginIcons, Vue Tostify installed.
+# Vue Inertia Laravel Tailwind (VILT) Started With Laravel Breeze, DaisyUI, unpluginIcons, Vue Tostify installed.
 
 - #### Environment Variables
     - Check the `.env` file
